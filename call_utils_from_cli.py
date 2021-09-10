@@ -6,8 +6,8 @@ if __name__ == "__main__":
     parser.add_argument('-op', '--operation', help='Write "getFolders", "getFiles", "printLine", "printEmail"')
     parser.add_argument('-p', '--path', help='Path to the file')
     parser.add_argument('-o', '--outputfile', help='The output file. Use data/example.csv data/output.txt before the file, and seperate the files with a space " "')
-    parser.add_argument('-f', '--filenames', nargs='+', type=str, help='An array of file names seperated by ","')
-    parser.add_argument('-m', '--mdfilenames', nargs='+', type=str, help='An array of md file names seperated by ","')
+    parser.add_argument('-f', '--filenames', nargs='+', type=str, help='An array of file names seperated by " "')
+    parser.add_argument('-m', '--mdfilenames', nargs='+', type=str, help='An array of md file names seperated by " "')
 
     args = parser.parse_args()
     print('Operation:', args.operation)
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     elif args.mdfilenames != None and args.outputfile != None:
         utils.write_headlines(args.filenames)
     else:
-        print("Please fill the infos you want to et the info.")
+        print("Please fill the infos you want.")
 
 
     
