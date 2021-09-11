@@ -1,0 +1,14 @@
+Student Name,Course,Teacher,Gender,ECTS,Classroom,Grade,Image Url
+Jens,Programmering,Thomas,male,20,105,7,https://cphbusiness.dk/images/Jens
+Jens,Python,Thomas,male,10,105,10,https://cphbusiness.dk/images/Jens
+Jens,Unity,Jesper,male,10,105,7,https://cphbusiness.dk/images/Jens
+Ole,Systemudvikling,Palle,male,10,105,12,https://cphbusiness.dk/images/Ole
+Ole,Python,Thomas,male,10,105,7,https://cphbusiness.dk/images/Ole
+Ole,Programmering,Thomas,male,20,105,-2,https://cphbusiness.dk/images/Ole
+Flemming,Unity,Jesper,male,10,105,0,https://cphbusiness.dk/images/Flemming
+Flemming,Programmering,Thomas,male,20,105,-2,https://cphbusiness.dk/images/Flemming
+Flemming,Systemudvikling,Palle,male,10,105,0,https://cphbusiness.dk/images/Flemming
+Line,Systemudvikling,Palle,Female,10,105,10,https://cphbusiness.dk/images/Line
+Line,Unity,Jesper,Female,10,105,4,https://cphbusiness.dk/images/Line
+Line,Security,Daniel,Female,10,105,2,https://cphbusiness.dk/images/Line
+Line,Programmering,Thomas,Female,20,105,4,https://cphbusiness.dk/images/Line
