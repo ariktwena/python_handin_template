@@ -78,22 +78,17 @@ class TextComparer():
     def __next__(self):
         try:
             if self.current < len(self.url_list):
+                item = self.url_list[self.current]
                 self.current += 1
-                return self.url_list[self.current - 1]
+                return item
             else:
                 raise StopIteration
         except StopIteration:
             print("No more url's in the list")
 
     def urllist_generator(self):
-        current = 0
-        try:
-            while (current < len(self.url_list)):
-                yield self.url_list[current]
-                current += 1
-            raise StopIteration
-        except StopIteration:
-            print("No more url's in the list")
+        for url in self.url_list:
+            yield url
 
 
 
